@@ -4,7 +4,7 @@ gwan c++11 devel environment install
 
 ## Install 
 
-* install deps
+* install deps [sqlpp11](https://github.com/rbock/sqlpp11), [sqlpp11-connector-sqlite3](https://github.com/rbock/sqlpp11-connector-sqlite3), etc
 * install tools (Optional)
 * install gwan
 * install examples
