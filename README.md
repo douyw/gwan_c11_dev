@@ -37,8 +37,7 @@ gwan c++11 devel environment install
 ## Browse
 
     http://<YourHost>:8080/?hello11.cpp
-    http://<YourHost>:8080/?sqlpp11_select.cpp
-
+    http://<YourHost>:8080/?sqlpp11_select.cpp (TIP: The output is plain text, view source for better format)
   
 Have fun!
 
