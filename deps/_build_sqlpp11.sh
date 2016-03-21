@@ -22,6 +22,7 @@ build_sqlpp11() {
   cmake_deps 'sqlpp11'
   cmake_deps 'sqlpp11-connector-sqlite3' -DCMAKE_CXX_FLAGS=-fPIC
   cmake_deps 'sqlpp11-connector-mysql' -DCMAKE_CXX_FLAGS=-fPIC
+  cmake_deps 'mstch' -DCMAKE_CXX_FLAGS=-fPIC
 }
 
 clone_all() {
@@ -29,6 +30,7 @@ clone_all() {
   git clone https://github.com/rbock/sqlpp11.git
   git clone https://github.com/rbock/sqlpp11-connector-sqlite3.git
   git clone https://github.com/rbock/sqlpp11-connector-mysql.git
+  git clone https://github.com/no1msd/mstch.git
 }
 
 clone_all
